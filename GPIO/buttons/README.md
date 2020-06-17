@@ -1,6 +1,7 @@
 **Purpose**
 
-Toggle the green led when user button is used through Linux Kernel.
+Toggle the green led when user2 button is used from userland.
+
 
 **Hardware**
 
@@ -13,4 +14,6 @@ Available for:
 
 ./button_gpio_exti.sh
 
+**Note**
 
+-A7-example device tree has not to be used in this case.
